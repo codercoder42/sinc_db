@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "dev": "python test.py"
+    "dev": "python server.py"
   }
 }
