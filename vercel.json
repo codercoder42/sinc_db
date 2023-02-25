@@ -1,6 +1,12 @@
 {
   "version": 2,
+  "build": {
+    "env": {
+      "PYTHONUNBUFFERED": "true"
+    },
+    "command": "python test.py"
+  },
   "routes": [
-    { "src": "/(.*)", "dest": "/test.py" }
+    { "src": "/.*", "dest": "test.py" }
   ]
 }
