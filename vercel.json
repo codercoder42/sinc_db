@@ -1,9 +1,5 @@
 {
   "version": 2,
-  "builds": {
-    "use": "@vercel/python",
-    "sourcemap": true
-  },
   "routes": [
     { "src": "/(.*)", "dest": "/test.py" }
   ]
