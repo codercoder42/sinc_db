@@ -6,6 +6,6 @@
     }
   },
   "routes": [
-    { "src": "/.*", "dest": "test.py" }
+    { "src": "/.*", "dest": "server.py" }
   ]
 }
