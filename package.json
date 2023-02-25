@@ -1,5 +1,8 @@
 {
+  "name": "sinc-db",
+  "version": "1.0.0",
+  "description": "My Vercel Python project",
   "scripts": {
-    "dev": "python server.py"
+    "start": "python server.py"
   }
 }
