@@ -3,8 +3,7 @@
   "build": {
     "env": {
       "PYTHONUNBUFFERED": "true"
-    },
-    "command": "python test.py"
+    }
   },
   "routes": [
     { "src": "/.*", "dest": "test.py" }
