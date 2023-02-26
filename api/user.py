@@ -11,4 +11,5 @@ class handler(BaseHTTPRequestHandler):
         with open(join('data', 'file.txt'), 'r') as file:
           for line in file:
             self.wfile.write(line.encode())
+            print('TEST 1234567')
         return
