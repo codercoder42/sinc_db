@@ -13,3 +13,8 @@ class handler(BaseHTTPRequestHandler):
             self.wfile.write(line.encode())
             print('TEST 1234567')
         return
+
+def test():
+    print('test')
+
+test()
